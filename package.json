@@ -1,0 +1,20 @@
+{
+    "name": "talking-head-avatar",
+    "version": "1.0.0",
+    "description": "WebGPU-powered talking avatar demo",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "webpack serve --mode development",
+      "build": "webpack --mode production"
+    },
+    "dependencies": {
+      "three": "^0.160.0",
+      "@huggingface/transformers": "^2.5.0"
+    },
+    "devDependencies": {
+      "webpack": "^5.88.0",
+      "webpack-cli": "^5.1.0",
+      "webpack-dev-server": "^4.15.0",
+      "html-webpack-plugin": "^5.5.0"
+    }
+  }

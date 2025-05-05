@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { checkWebGPUSupport } from '../utils/webgpu';
 
 export const setupRenderer = async () => {
   if (await checkWebGPUSupport()) {
